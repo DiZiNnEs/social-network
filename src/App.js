@@ -3,15 +3,15 @@ import React from "react";
 import './App.css';
 
 import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Content from "./components/Content";
+import Navbar from "./components/Navbar";
+import Profle from "./components/Profle";
 
 const App = () => {
   return (
     <div className='app-wrapper'>
       <Header/>
-      <Nav/>
-      <Content/>
+      <Navbar/>
+      <Profle/>
     </div>
   );
 }

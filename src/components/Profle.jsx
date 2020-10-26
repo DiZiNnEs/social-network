@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Content = () => {
+const Profle = () => {
   return (
     <main className='content'>
       <div>
@@ -31,4 +31,4 @@ const Content = () => {
   );
 }
 
-export default Content
+export default Profle
