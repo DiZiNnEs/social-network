@@ -2,9 +2,9 @@ import React from "react";
 
 import './App.css';
 
-// import Technologies from "./Technologies";
-// import Header from "./Header";
-// import Footer from "./Footer";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Content from "./components/Content";
 
 const App = () => {
   return (
