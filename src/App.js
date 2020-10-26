@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className='app-wrapper'>
       <header className='header'>
-        <img src="https://www.logaster.com/blog/wp-content/uploads/2018/05/LogoMakr.png" alt=""/>
+        <img className='header-logo' src="https://www.logaster.com/blog/wp-content/uploads/2018/05/LogoMakr.png" alt=""/>
       </header>
 
       <nav className='nav'>
@@ -37,22 +37,21 @@ const App = () => {
 
       <main className='content'>
         <div>
-          <img src="https://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg" alt=""/>
+          <img className='content-background-image' src="https://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg" alt=""/>
         </div>
 
         <div>
-          <img src="https://masna.ir/school/howto/img_avatar.png" alt=""/>
+          <img className='users-avatar' src="https://masna.ir/school/howto/img_avatar.png" alt=""/>
         </div>
 
         <div>
-
           My posts
           <div>
-
             new poss
           </div>
 
         </div>
+
         <div>
           post 1
         </div>

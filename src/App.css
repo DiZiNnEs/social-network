@@ -13,18 +13,16 @@
     grid-area: h;
     background-color: forestgreen;
 }
-.header img {
+.header .header-logo {
     width: 30px;
 }
 
 .nav {
     grid-area: n;
-    background-color: red;
-
+    background-color: brown;
 }
 
 .content {
     grid-area: c;
-    background-color: blue;
-
+    background-color: violet;
 }
