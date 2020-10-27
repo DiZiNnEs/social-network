@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './styles/Profile.module.css';
 
-const Profle = () => {
+const Profile = () => {
   return (
     <main className={classes.content}>
       <div>
@@ -14,23 +14,26 @@ const Profle = () => {
       </div>
 
       <div>
-        My posts
-        <div>
-          new poss
+
+        <div className={classes.posts}>
+          My posts
+          <div>
+            new post
+          </div>
         </div>
 
-      </div>
+        <div>
+          post 1
+        </div>
 
-      <div>
-        post 1
-      </div>
+        <div>
+          post 2
+        </div>
 
-      <div>
-        post 2
       </div>
 
     </main>
   );
 }
 
-export default Profle
+export default Profile;
