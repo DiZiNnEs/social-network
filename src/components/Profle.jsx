@@ -8,7 +8,7 @@ const Profle = () => {
       </div>
 
       <div>
-        <img className='users-avatar' src="https://masna.ir/school/howto/img_avatar.png" alt=""/>
+        <img src="https://masna.ir/school/howto/img_avatar.png" alt=""/>
       </div>
 
       <div>
