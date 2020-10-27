@@ -9,21 +9,3 @@
     grid-template-columns: 2fr 10fr;
 }
 
-.header {
-    grid-area: h;
-    background-color: steelblue;
-}
-.header img {
-    width: 30px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: steelblue;
-
-}
-
-.content {
-    grid-area: c;
-    background-color: steelblue;
-}
