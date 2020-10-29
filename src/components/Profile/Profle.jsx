@@ -19,16 +19,8 @@ const Profile = () => {
 
         <div className={classes.posts}>
           <Posts/>
-          <Post/>
         </div>
 
-        <div>
-          post 1
-        </div>
-
-        <div>
-          post 2
-        </div>
 
       </div>
 
