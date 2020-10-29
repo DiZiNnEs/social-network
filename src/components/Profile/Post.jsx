@@ -10,6 +10,8 @@ const Post = () => {
           alt=""/>
       </div>
       <div>Best post</div>
+      <div>Like</div>
+      <div>Dislike</div>
     </div>
   );
 }

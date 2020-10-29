@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from "./Post";
 
 const Posts = () => {
   return (
@@ -9,6 +10,12 @@ const Posts = () => {
         <button>Add post</button>
         <button>Cancel</button>
       </div>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
     </div>
   )
 }
