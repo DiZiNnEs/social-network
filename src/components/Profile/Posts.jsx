@@ -10,12 +10,8 @@ const Posts = () => {
         <button>Add post</button>
         <button>Cancel</button>
       </div>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post comment={"What's up bro"} likes={15}/>
+      <Post comment={'Coroutine is the best'} likes={10}/>
     </div>
   )
 }
