@@ -5,7 +5,7 @@ import Posts from "./Posts";
 
 const Profile = () => {
   return (
-    <main className={classes.content}>
+    <main className='content'>
       <div>
         <img src="https://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg"
              alt="error_main_content_image"/>
