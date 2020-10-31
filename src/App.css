@@ -9,3 +9,8 @@
     grid-template-columns: 2fr 10fr;
 }
 
+.content {
+    grid-area: c;
+    background-color: steelblue;
+}
+

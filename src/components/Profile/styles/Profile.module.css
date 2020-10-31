@@ -1,13 +1,8 @@
-.content {
-    grid-area: c;
-    background-color: steelblue;
-}
-
 .posts {
     color: purple;
 }
 
-.item img{
+.item img {
     width: 70px;
     height: 65px;
     border-radius: 50px;
