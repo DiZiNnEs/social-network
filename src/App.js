@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter } from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 import './App.css';
 
@@ -18,8 +18,8 @@ const App = () => {
         <Header/>
         <Navbar/>
         <div className='content'>
-          <Route path='/messages' component={Dialog}/>
-          <Route path='/profile' component={Profile}/>
+          <Route path={'/messages'} component={Dialog}/>
+          <Route path={'/profile'} component={Profile}/>
           <Route path={'/news'} component={News}/>
           <Route path={'/music'} component={Music}/>
           <Route path={'/settings'} component={Settings}/>
