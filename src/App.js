@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profle";
 import Dialog from "./components/Dialogs/Diaolog";
 import {Route, BrowserRouter} from 'react-router-dom';
+import News from "./components/News/News";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <div className='content'>
           <Route path='/messages' component={Dialog}/>
           <Route path='/profile' component={Profile}/>
+          <Route path={'/news'} component={News}/>
         </div>
       </div>
     </BrowserRouter>
