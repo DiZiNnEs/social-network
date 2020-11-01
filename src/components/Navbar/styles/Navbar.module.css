@@ -6,3 +6,7 @@
 .item a {
     color: white;
 }
+
+.item a.active__link {
+    color: goldenrod;
+}
