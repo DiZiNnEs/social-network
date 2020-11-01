@@ -4,7 +4,7 @@ import classes from './styles/Diaolog.module.css'
 const Dialog = () => {
   return (
     <div className='content'>
-      <p>Dialog</p>
+      <p className={classes.p__dialog}>Dialog</p>
     </div>
   );
 }
