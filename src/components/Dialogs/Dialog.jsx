@@ -1,19 +1,18 @@
 import React from 'react';
 import classes from './styles/Diaolog.module.css'
-import { NavLink } from "react-router-dom";
-import DialogItem from "./DialogItems";
+import UserDialog from "./UsersDialog";
 
 
 const Dialog = (props) => {
   return (
     <div className={classes.dialogs}>
       <div className={classes.dialogs_items}>
-        <DialogItem dialogNumber={1} name={'Shapagat'}/>
-        <DialogItem dialogNumber={2} name={'Alisher'}/>
-        <DialogItem dialogNumber={3} name={'Dizi'}/>
-        <DialogItem dialogNumber={4} name={'Sveta'}/>
-        <DialogItem dialogNumber={5} name={'Katya'}/>
-        <DialogItem dialogNumber={6} name={'Toki'}/>
+        <UserDialog dialogNumber={1} name={'Shapagat'}/>
+        <UserDialog dialogNumber={2} name={'Alisher'}/>
+        <UserDialog dialogNumber={3} name={'Dizi'}/>
+        <UserDialog dialogNumber={4} name={'Sveta'}/>
+        <UserDialog dialogNumber={5} name={'Katya'}/>
+        <UserDialog dialogNumber={6} name={'Toki'}/>
       </div>
 
       <div className={classes.messages}>
