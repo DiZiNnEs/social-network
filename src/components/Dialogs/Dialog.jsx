@@ -2,13 +2,11 @@ import React from 'react';
 import classes from './styles/Diaolog.module.css'
 import { NavLink } from "react-router-dom";
 
-const Dialog = () => {
+const Dialog = (props) => {
   return (
     <div className={classes.dialogs}>
       <div className={classes.dialogs_items}>
-        <div className={classes.items}>
-          <NavLink to={'dialog/1'}>Shapagat</NavLink>
-        </div>
+
         <div className={classes.items}>
           <NavLink to={'dialog/2'}>Alisher</NavLink>
         </div>
