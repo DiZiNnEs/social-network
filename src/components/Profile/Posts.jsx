@@ -6,9 +6,13 @@ const Posts = () => {
     <div>
       Posts
       <div>
-        <textarea name="" id="" cols="20" rows="10"></textarea>
-        <button>Add post</button>
-        <button>Cancel</button>
+        <textarea name="" id="" cols="20" rows="10"/>
+        <div>
+          <button>Add post</button>
+        </div>
+        <div>
+          <button>Cancel</button>
+        </div>
       </div>
       <Post comment={"What's up bro"} likes={15}/>
       <Post comment={'Coroutine is the best'} likes={10}/>
