@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './styles/Diaolog.module.css'
 import UserDialog from "./UsersDialog";
+import DialogWindow from "./DialogWIndow";
 
 
 const Dialog = (props) => {
@@ -16,9 +17,10 @@ const Dialog = (props) => {
       </div>
 
       <div className={classes.messages}>
-        <div className={classes.messages_items}>Hello</div>
-        <div className={classes.messages_items}>Hi, how are you</div>
-        <div className={classes.messages_items}>You're welcome</div>
+        <DialogWindow text={'hello'}/>
+        <DialogWindow text={'How are you ?'}/>
+        <DialogWindow text={'I am good'}/>
+        <DialogWindow text={'Okay, I get it'}/>
       </div>
     </div>
   );
