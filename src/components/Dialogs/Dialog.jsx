@@ -23,24 +23,26 @@ const Dialog = (props) => {
     {id: 6, messages: 'Okay, I get it'},
   ]
 
+  const userDialogs = dialogDate.map(element => {
+    return (
+      <UserDialog dialogNumber={element.id} name={element.name}/>
+    );
+  })
+
+  const userMessages = messagesDate.map(element => {
+    return (
+      <DialogWindow text={element.messages}/>
+    )
+  })
+
   return (
     <div className={classes.dialogs}>
       <div className={classes.dialogs_items}>
-        <UserDialog dialogNumber={dialogDate[0].id} name={dialogDate[0].name}/>
-        <UserDialog dialogNumber={dialogDate[1].id} name={dialogDate[1].name}/>
-        <UserDialog dialogNumber={dialogDate[2].id} name={dialogDate[2].name}/>
-        <UserDialog dialogNumber={dialogDate[3].id} name={dialogDate[3].name}/>
-        <UserDialog dialogNumber={dialogDate[4].id} name={dialogDate[4].name}/>
-        <UserDialog dialogNumber={dialogDate[5].id} name={dialogDate[5].name}/>
+        {userDialogs}
       </div>
 
       <div className={classes.messages}>
-        <DialogWindow text={messagesDate[0].messages}/>
-        <DialogWindow text={messagesDate[1].messages}/>
-        <DialogWindow text={messagesDate[2].messages}/>
-        <DialogWindow text={messagesDate[3].messages}/>
-        <DialogWindow text={messagesDate[4].messages}/>
-        <DialogWindow text={messagesDate[5].messages}/>
+        {userMessages}
       </div>
     </div>
   );
