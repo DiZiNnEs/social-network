@@ -11,14 +11,16 @@ import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 
-const App = () => {
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className='app-wrapper'>
         <Header/>
         <Navbar/>
         <div className='content'>
-          <Route path={'/messages'} component={Dialog}/>
+          {/*<Route path={'/messages'} component={Dialog}/>*/}
+          <Route path={'/messages'} render={ () => <Dialog UserDialogDateToMessages={props.UserDialogDateToMessages} UserMessagesDateToMessages={props.UserMessagesDateToMessages}/>}/>
+
           <Route path={'/profile'} component={Profile}/>
           <Route path={'/news'} component={News}/>
           <Route path={'/music'} component={Music}/>
