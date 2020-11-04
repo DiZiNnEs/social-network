@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './styles/Diaolog.module.css'
+import classes from './styles/Dialog.module.css'
 import UserDialog from "./UsersDialog";
 import DialogWindow from "./DialogWIndow";
 
