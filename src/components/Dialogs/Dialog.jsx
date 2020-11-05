@@ -6,13 +6,13 @@ import DialogWindow from "./DialogWIndow";
 
 const Dialog = (props) => {
 
-  const userDialogs = props.UserDialogDateToMessages.map(element => {
+  const userDialogs = props.UserDialogsAndMessages['UserDialog'].map(element => {
     return (
       <UserDialog dialogNumber={element.id} name={element.name}/>
     );
   })
 
-  const userMessages = props.UserMessagesDateToMessages.map(element => {
+  const userMessages = props.UserDialogsAndMessages['UserMessages'].map(element => {
     return (
       <DialogWindow text={element.messages}/>
     )
