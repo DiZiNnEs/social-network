@@ -2,7 +2,7 @@ import React from 'react';
 import Post from "./Post";
 
 const Posts = (props) => {
-  const post = props.PostCommentsAndLikesToProfile.map(element => {
+  const post = props.PostCommentsAndLikesToProfileDates["PostComments"].map(element => {
     return (
       <Post comment={element.post_comment} likes={element.post_likes}/>
     )

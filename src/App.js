@@ -23,7 +23,7 @@ const App = (props) => {
                                                           UserMessagesDateToMessages={props.UserMessagesDateToMessages}/>}/>
 
           <Route path={'/profile'}
-                 render={() => <Profile PostCommentsAndLikesToProfile={props.PostCommentsAndLikesToProfile}/>}/>
+                 render={() => <Profile PostCommentsAndLikesToProfileDates={props.dates}/>}/>
           <Route path={'/news'} render={() => <News/>}/>
           <Route path={'/music'} render={() => <Music/>}/>
           <Route path={'/settings'} render={() => <Settings/>}/>
