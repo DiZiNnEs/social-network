@@ -22,10 +22,15 @@ const UserMessagesDateToMessages = [
   { id: 6, messages: 'Okay, I get it' },
 ]
 
+const PostCommentsAndLikesToProfile = [
+  { post_comment: 'What\'s up bro', post_likes: 15 },
+  { post_comment: 'Coroutine is the best', post_likes: 25 }
+];
 
 ReactDOM.render(
   <React.StrictMode>
-    <App UserDialogDateToMessages={UserDialogDateToMessages} UserMessagesDateToMessages={UserMessagesDateToMessages}/>
+    <App UserDialogDateToMessages={UserDialogDateToMessages} UserMessagesDateToMessages={UserMessagesDateToMessages}
+         PostCommentsAndLikesToProfile={PostCommentsAndLikesToProfile}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

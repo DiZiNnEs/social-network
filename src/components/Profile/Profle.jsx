@@ -11,7 +11,7 @@ const Profile = (props) => {
         <Top/>
       </div>
       <div className={classes.posts}>
-        <Posts/>
+        <Posts PostCommentsAndLikesToProfile={props.PostCommentsAndLikesToProfile}/>
       </div>
 
     </main>

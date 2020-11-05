@@ -22,7 +22,8 @@ const App = (props) => {
           <Route path={'/messages'} render={() => <Dialog UserDialogDateToMessages={props.UserDialogDateToMessages}
                                                           UserMessagesDateToMessages={props.UserMessagesDateToMessages}/>}/>
 
-          <Route path={'/profile'} render={() => <Profile/>}/>
+          <Route path={'/profile'}
+                 render={() => <Profile PostCommentsAndLikesToProfile={props.PostCommentsAndLikesToProfile}/>}/>
           <Route path={'/news'} render={() => <News/>}/>
           <Route path={'/music'} render={() => <Music/>}/>
           <Route path={'/settings'} render={() => <Settings/>}/>

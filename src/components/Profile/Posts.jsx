@@ -1,7 +1,12 @@
 import React from 'react';
 import Post from "./Post";
 
-const Posts = () => {
+const Posts = (props) => {
+  const post = props.PostCommentsAndLikesToProfile.map(element => {
+    return (
+      <Post comment={element.post_comment} likes={element.post_likes}/>
+    )
+  });
   return (
     <div>
       Posts
@@ -14,8 +19,7 @@ const Posts = () => {
           <button>Cancel</button>
         </div>
       </div>
-      <Post comment={"What's up bro"} likes={15}/>
-      <Post comment={'Coroutine is the best'} likes={10}/>
+      {post}
     </div>
   )
 }
