@@ -12,10 +12,10 @@ const Dialog = (props) => {
     );
   })
 
-  const userMessages = props.UserDialogsAndMessages.UserMessages.map(element => {
+  const userMessages =  props.UserDialogsAndMessages.UserMessages.map(element => {
     return (
       <DialogWindow text={element.messages}/>
-    )
+    );
   })
 
   return (

@@ -19,9 +19,9 @@ const App = (props) => {
         <Navbar/>
         <div className='content'>
           <Route path={'/messages'}
-                 render={() => <Dialog UserDialogsAndMessages={props.dates}/>}/>
+                 render={() => <Dialog UserDialogsAndMessages={props.dates.messagesPage}/>}/>
           <Route path={'/profile'}
-                 render={() => <Profile PostCommentsAndLikesToProfileDates={props.dates}/>}/>
+                 render={() => <Profile PostCommentsAndLikesToProfileDates={props.dates.profilePage}/>}/>
           <Route path={'/news'} render={() => <News/>}/>
           <Route path={'/music'} render={() => <Music/>}/>
           <Route path={'/settings'} render={() => <Settings/>}/>
